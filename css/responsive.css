@@ -1,0 +1,435 @@
+/* =========================EX Device Start========================== */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+/* ====================Navbar Starting====================== */
+nav {
+	padding-top: 10px !important;
+}
+.bx {
+	color: white;
+	font-size: 40px;
+}
+.offcanvas {
+	max-width: 60%;
+	transition: all 300ms ease-in-out;
+}
+.navbar-toggler {
+	padding: 5px;
+}
+.offcanvas-header {
+	background-color: #2B3035;
+}
+.offcanvas-header h5 img{
+	width: 90px;
+}
+.offcanvas-header .btn-close {
+	margin-left: 46px;
+	background-color: white;
+	font-size: 15px;
+}
+.offcanvas-body {
+	background-color: #2B3035;
+}
+.offcanvas-title {
+	color: white;
+}
+.bookButton{
+    margin-top: 30px;
+}
+.bookButton a {
+	padding: 12px 22px;
+	font-size: 12px;
+}
+.navbar-nav li a {
+	padding: 0;
+}
+.dropdown-menu li a{
+	padding: 0px 10px;
+}
+
+/* ====================Navbar Ending============--=========== */
+
+/* ====================Banner Section Starting=============== */
+#banner {
+	transform: translateY(111px);
+}
+.banner_text h2 {
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+.banner_text h1 {
+	font-size: 46px;
+}
+.banner_text span p {
+	font-size: 11px;
+	letter-spacing: 2px;
+	padding: 20px 0px;
+}
+.white_line {
+	padding: 0px;
+}
+.banner-card {
+	gap: 27px;
+	margin-left: 2px !important;
+}
+.dis320{
+	display: none;
+}
+.subtract_1:hover {
+	transform: scale(1.03);
+	margin-top: 0px;
+}
+/* ====================Banner Section Ending=================== */
+
+
+/* =====================Event Section Starting================ */
+#event {
+	padding-top: 169px;
+}
+.details h2 {
+	font-size: 22px;
+}
+.details p {
+	margin-top: 22px;
+	font-size: 15px;
+}
+.event_details2 {
+	margin-top: 10px !important;
+}
+/* =====================Event Section Ending================= */
+
+/* =====================Food Gallery Starting================ */
+.gallery_header span p {
+	font-size: 30px;
+}
+.food_gallery_and_about {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+/* =====================Food Gallery Ending================== */
+
+/* ===================Reserve Section Starting============== */
+#reserve {
+	padding-top: 30px;
+}
+.reserve_row{
+	background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+}
+.reserve_img img{
+	width: 100%;
+	display: none;
+}
+.reserve_info {
+	padding-left: 35px;
+	padding-right: 25px;
+}
+.reserve_info h2 {
+	font-size: 24px;
+	color: white;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+.reserve_info input {
+	margin-bottom: 25px;
+	padding: 12px 15px;
+}
+.reserve_info a {
+	margin-top: 10px;;
+	padding: 16px 20px;
+	font-size: 15px;
+	margin-bottom:20px;
+}
+
+/* =====================Reserve Section Ending================ */
+
+/* ==========================Footer Starting=================== */
+footer {
+	margin-top: 65px;
+	height: 100%;
+	padding: 20px 0px;
+}
+.row_1 p {
+	padding-top: 30px;
+}
+.footer_row {
+	padding-left: 4px;
+	padding-top: 30px;
+	text-align: center;
+}
+.footer_row h2::after {
+	left: 25%;
+}
+.footer_navLinks {
+	padding-left: 0px;
+	text-align: center;
+	margin-top: 32px;
+}
+.footer_navLinks h2::after {
+	width: 50%;
+	left: 25%;
+}
+.footer_icons{
+	margin-top: 25px;
+}
+.footer_navLinks .footer_icons {
+	gap: 20px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.bx {
+	font-size: 32px;
+}
+.footer_input input {
+	padding: 13px 107px 14px 13px;
+	width: 100%;
+}
+.footer_navLinks button {
+	margin-top: 18px;
+	padding: 9px 0;
+	font-size: 20px;
+	width: 100%;
+}
+.copyright h2 {
+	font-size: 18px;
+}
+/* ==========================Footer Ending====================== */
+
+}
+/* =========================EX Device End========================== */
+
+/* =========================SM Device Start========================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/* ====================Navbar Starting====================== */
+	nav {
+		padding-top: 10px !important;
+	}
+	.bx {
+		color: white;
+		font-size: 40px;
+	}
+	.offcanvas {
+		max-width: 50%;
+		transition: all 300ms ease-in-out;
+	}
+	.navbar-toggler {
+		padding: 5px;
+	}
+	.offcanvas-header {
+		background-color: #2B3035;
+	}
+	.offcanvas-header h5 img{
+		width: 115px;
+	}
+	.offcanvas-header .btn-close {
+		margin-left: 117px;
+		background-color: white;
+		font-size: 15px;
+	}
+	.offcanvas-body {
+		background-color: #2B3035;
+	}
+	.offcanvas-title {
+		color: white;
+	}
+	.bookButton{
+		margin-top: 30px;
+	}
+	.bookButton a {
+		padding: 13px 24px;
+		font-size: 14px;
+	}
+	.navbar-nav li a {
+		padding: 0;
+	}
+	.dropdown-menu li a{
+		padding: 0px 10px;
+	}
+	
+	/* ====================Navbar Ending============--=========== */
+	
+	/* ====================Banner Section Starting=============== */
+	#banner {
+		transform: translateY(111px);
+	}
+	#nav_and_banner {
+		background-position: center;
+		height: 680px;
+	}
+	.banner_text h2 {
+		font-size: 45px;
+		margin-bottom: 20px;
+	}
+	.banner_text h1 {
+		font-size: 50px;
+	}
+	.banner_text span p {
+		font-size: 12px;
+		letter-spacing: 4px;
+		
+	}
+	.white_line {
+		padding: 0px;
+	}
+	.banner-card {
+		display: flex;
+		flex-wrap: nowrap;
+		width: 30%;
+	}
+	
+	.banner-card {
+		gap: 27px;
+		margin-left: 2px !important;
+	}
+	.subtract_1 {
+		width: 150px;
+		height: 184px;
+	}
+	.subtract_1 img {
+		width: 44px;
+		margin-top: 0;
+	}
+	.subtract_1 h2 {
+		height: 35px;
+		font-size: 13px;
+		margin-top: 0;
+	}
+	.subtract_1 p {
+		width: 135px;
+		font-size: 9px;
+		margin-top: 0;
+	}
+	.subtract_1 a {
+		margin-top: 7px;
+		padding: 12px 22px;
+		font-size: 7px;
+	}
+	.subtract_1:hover {
+		transform: scale(1.03);
+		margin-top: 0px;
+	}
+
+	/* ====================Banner Section Ending=================== */
+	
+	
+	/* =====================Event Section Starting================ */
+	#event {
+		padding-top: 169px;
+	}
+	.details h2 {
+		font-size: 22px;
+	}
+	.details p {
+		margin-top: 22px;
+		font-size: 15px;
+	}
+	.event_details2 {
+		margin-top: 10px !important;
+	}
+	/* =====================Event Section Ending================= */
+	
+	/* =====================Food Gallery Starting================ */
+	.gallery_header span p {
+		font-size: 30px;
+	}
+	.food_gallery_and_about {
+		display: flex;
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	
+	/* =====================Food Gallery Ending================== */
+	
+	/* ===================Reserve Section Starting============== */
+	#reserve {
+		padding-top: 30px;
+	}
+	.reserve_row{
+		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+	}
+	.reserve_img img{
+		width: 100%;
+		display: none;
+	}
+	.reserve_info {
+		padding-left: 35px;
+		padding-right: 25px;
+	}
+	.reserve_info h2 {
+		font-size: 24px;
+		color: white;
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}
+	.reserve_info input {
+		margin-bottom: 25px;
+		padding: 12px 15px;
+	}
+	.reserve_info a {
+		margin-top: 10px;;
+		padding: 16px 20px;
+		font-size: 15px;
+		margin-bottom:20px;
+	}
+	
+	/* =====================Reserve Section Ending================ */
+	
+	/* ==========================Footer Starting=================== */
+	footer {
+		margin-top: 65px;
+		height: 100%;
+		padding: 20px 0px;
+	}
+	.row_1 p {
+		padding-top: 30px;
+	}
+	.footer_row {
+		padding-left: 4px;
+		padding-top: 30px;
+		text-align: center;
+	}
+	.footer_row h2::after {
+		left: 25%;
+	}
+	.footer_navLinks {
+		padding-left: 0px;
+		text-align: center;
+		margin-top: 32px;
+	}
+	.footer_navLinks h2::after {
+		width: 50%;
+		left: 25%;
+	}
+	.footer_icons{
+		margin-top: 25px;
+	}
+	.footer_navLinks .footer_icons {
+		gap: 20px;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.bx {
+		font-size: 32px;
+	}
+	.footer_input input {
+		padding: 13px 107px 14px 13px;
+		width: 100%;
+	}
+	.footer_navLinks button {
+		margin-top: 18px;
+		padding: 9px 0;
+		font-size: 20px;
+		width: 100%;
+	}
+	.copyright h2 {
+		font-size: 18px;
+	}
+	/* ==========================Footer Ending====================== */
+	
+}
+/* =========================SM Device End========================== */
+

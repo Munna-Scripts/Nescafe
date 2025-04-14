@@ -1,0 +1,509 @@
+/* ===================Font Family======================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+/* ===================Font Family======================= */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    background-color: #F0EBE5 !important;
+}
+/* ===================Nav And Banner Starting=================== */
+#nav_and_banner{
+    background-image: url(../images/slider_image01-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+nav{
+    width: 100%;
+    padding-top: 35px !important;
+    background-color: transparent;
+}
+/* ------Drop Down Css St------ */
+.navbar-nav li a{
+    color: white !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.navbar-nav{
+    gap: 30px;
+}
+.dropdown-menu{
+    background-color: red !important; 
+}
+.dropdown-menu a:hover{
+    background-color: #181616 !important;
+}
+.dropdown-item{
+    color: black !important;
+}
+/* ------Drop Down Css Ed------ */
+.bookButton a{
+    background-color: #ED2433;
+    text-decoration: none;
+    color: white;
+    padding: 17px 28px;
+    border-radius: 6px;
+    box-shadow: 8px 8px 0px #A40C18;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 300ms ease-in-out;
+}
+.bookButton a:hover{
+    box-shadow: -10px -7px 0px #373737;
+    background: #181616;
+}
+/* ===================Nav And Banner Ending=================== */
+
+/* =====================Banner Section Starting=================== */
+#banner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(226px);
+}
+.banner_text{
+    margin-top: -73px;
+}
+.banner_text h2{
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-size: 62px;
+    color: #ED2433;
+}
+.banner_text h1{
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-size: 83px;
+    color: #ED2433;
+}
+.banner_text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 31px;
+}
+.white_line {
+    margin-bottom: 24px;
+    padding: 0px 16px;
+}
+.banner_text span p{
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    letter-spacing: 7px;
+}
+.banner_text a{
+    margin-top: 25px;
+    background-color: #ED2433;
+    text-decoration: none;
+    color: white;
+    padding: 17px 28px;
+    border-radius: 6px;
+    box-shadow: 8px 8px 0px #A40C18;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    transition: all 300ms ease-in-out;
+}
+.banner_text a:hover{
+    box-shadow: -10px -7px 0px #373737;
+    background: #181616;
+}
+.subtract_1{
+    transition: all 300ms ease-in-out;
+}
+.subtract_1{
+    background-image: url(../images/Subtract\ 1.png);
+    background-size: cover;
+    background-position: center;
+    width: 292px;
+    height: 362px;
+}
+.banner-card{
+    gap: 78px;
+    margin-top: 100px !important;
+    margin-left: 125px !important;
+    transition: all 300ms ease-in-out;
+
+}
+.col-lg-3{
+    padding: 0px !important;
+}
+.subtract_1 img{
+    margin-top: 10px;
+}
+.subtract_1 h2{
+    margin-top: 10px;
+    background-color: #101010;
+    width: 100%;
+    height: 45px;
+    font-size: 21px;
+    padding: 11px 0;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+}
+.subtract_1 h2 span{
+    color: #ED2433;
+}
+.subtract_1 p{
+    margin: 0 auto;
+    width: 270px;
+    margin-top:26px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.subtract_1 a{
+    margin-top: 25px;
+    background-color: #181616;
+    text-decoration: none;
+    color: white;
+    padding: 17px 28px;
+    border-radius: 6px;
+    box-shadow: 8px 8px 0px #373737;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+}
+.subtract_1 a:hover{
+    box-shadow: -10px -7px 0px #ec0f21;
+    background: #ff0011;
+}
+.subtract_1:hover{
+    transform: scale(1.03);
+    margin-top: -50px;
+}
+/* =====================Banner Section Ending=================== */
+
+
+/* =====================Event Section Starting=================== */
+#event{
+    padding-top: 440px;
+}
+.event_header{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.event_header h5{
+    font-size: 20px;
+    letter-spacing: 13px;
+    margin-bottom: 15px;
+}
+.event_header h2{
+    font-size: 32px;
+}
+.event_header h2:after {
+    content: '';
+    display: block;
+    width: 15%;
+    border: 2px solid #ED2433;
+    margin-top: 12px !important; 
+    margin: 0 auto;
+}
+.event_header h2 .sp-1{
+    font-weight: bold;
+}
+.event_header h2 .sp-2{
+    color: #ED2433;
+}
+
+.event_details{
+    margin-top: 100px !important;
+}
+
+.main_detail_text{
+    display: flex;
+    align-items: start;
+    gap: 37px;
+}
+.details p{
+    margin-top: 30px;
+    font-size: 16px;
+}.details h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+.details h2 span{
+    font-weight: bold;
+}
+
+.event_details2{
+    margin-top: 65px !important;
+}
+/* =====================Event Section Ending=================== */
+
+/* =====================Food Gallery Starting=================== */
+#gallery{
+    padding-top: 100px;
+}
+.gallery_header span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ED2433;
+    margin-bottom: 31px;
+}
+.gallery_header span p{
+    color: black;
+    font-family: "Cookie", cursive;
+    font-size: 32px;
+    
+}
+.gallery_header span p .p_span{
+    display: inline-block;
+    margin-bottom: 0px !important;
+}
+.food_text span {
+    display: flex;
+    align-items: center;
+    color: #ED2433;
+    font-size: 17px;
+    font-family: "Acme", sans-serif;
+}
+.food_gallery_and_about{
+    display: flex;
+    gap: 46px;
+}
+.food_text span .white_line {
+    margin-bottom: 27px;
+    padding-right: 10px;
+    padding-left: 0px !important;
+    font-size: 20px;
+}
+.food_text h2{
+    font-family: "Acme", sans-serif;
+    font-size: 24px;
+    width: 150px;
+    margin-bottom: 27px;
+}
+.food_text h5{
+    font-size: 12px;
+    color: #686868;
+    width: 247px;
+    font-family: "Acme", sans-serif;
+    margin-bottom: 0px;
+}
+.food_text a{
+    margin-top: 19px;
+    background-color: #ED2433;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+    box-shadow: 8px 8px 0px #A40C18;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+}
+.food_text a:hover{
+    box-shadow: -10px -7px 0px #373737;
+    background: #181616;
+}
+/* =====================Food Gallery Ending=================== */
+
+
+
+/* =====================Reserve Section Starting=================== */
+#reserve{
+    padding-top: 117px;
+}
+.reserve_row{
+    background-color: white;
+}
+.reserve_row .col-lg-6{
+    padding-left: 0px;
+}
+.reserve_info h2{
+    font-size: 25px;
+    color: #2C2C2C;
+    font-family: "Roboto", sans-serif;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+.reserve_info{
+    padding-left: 70px;
+    padding-right: 25px;
+}
+.reserve_info input{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    outline: none;
+}
+.reserve_info a{
+    margin-top: 29px;
+    width: 100%;
+    text-align: center;
+    background-color: #ED2433;
+    text-decoration: none;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 6px;
+    box-shadow: 8px 8px 0px #A40C18;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+}
+.reserve_info a:hover{
+    box-shadow: -10px -7px 0px #373737;
+    background: #181616;
+}
+/* =====================Reserve Section Ending=================== */
+
+/* ==========================Footer Starting====================== */
+footer{
+    margin-top: 170px;
+    width: 100%;
+    height:100%;
+    background-color: #2C2C2C;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.row_1 img{
+    width: 202px;
+}
+.row_1 p{
+    color: white;
+    font-size: 20px;
+    font-family: "Signika", sans-serif;
+    padding-top: 45px;
+    font-weight: 600;
+}
+.row_1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ED2433;
+    padding: 15px ;
+    border-radius: 37px;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 24px;
+    transition: all 300ms ease-in-out;
+}
+.row_1 a img{
+    width: 25px;
+}
+.row_1 .appleStore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ED2433;
+    background-color: white;
+    padding: 15px;
+    border-radius: 37px;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 24px;
+}
+.footer_row{
+    padding-left: 64px;
+}
+.footer_row h2{
+    color: white;
+    font-family: "Signika", sans-serif;
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.footer_row h2::after{
+    content:'';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #ED2433;
+    bottom: 0;
+    left: 0;
+}
+.footer_row p{
+    padding-top: 13px;
+    color: #A7A7A7;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.footer_navLinks{
+    padding-left: 64px;
+}
+.footer_navLinks h2{
+    color: white;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.footer_navLinks h2::after{
+    content:'';
+    position: absolute;
+    width: 20%;
+    height: 2px;
+    background-color: #ED2433;
+    bottom: 0;
+    left: 0;
+}
+.footer_navLinks .footer_icons{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.footer_navLinks .footer_icons a{
+    color: white;
+    font-size: 30px;
+}
+.footer_navLinks .footer_input{
+    margin-top: 23px;
+}
+.footer_input input{
+    padding: 15px 107px 14px 15px;
+    margin-top: 10px;
+    outline: none;
+}
+.footer_navLinks button{
+    margin-top: 29px;
+    width: 90%;
+    background-color: #ED2433;
+    color: white;
+    padding: 15px 0;
+    border-radius: 6px;
+    box-shadow: 8px 8px 0px #A40C18;
+    font-family: "Signika", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    transition: all 300ms ease-in-out;
+}
+.footer_navLinks button:hover{
+    box-shadow: -10px -7px 0px #373737;
+    background: #181616;
+}
+.copyright h2{
+    color: #A7A7A7;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+}
+/* ==========================Footer Ending======================== */
+

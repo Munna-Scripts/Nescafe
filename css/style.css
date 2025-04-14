@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
-/* ===================Font Family======================= */
+/* ===================Common Css======================= */
 body{
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body{
     max-height: 100vh;
     background-color: #F0EBE5 !important;
 }
-/* ===================Nav And Banner Starting=================== */
+/* ===================NavBar Starting=================== */
 #nav_and_banner{
     background-image: url(../images/slider_image01-1.jpg);
     background-size: cover;
@@ -45,7 +45,7 @@ nav{
 .dropdown-item{
     color: black !important;
 }
-/* ------Drop Down Css Ed------ */
+/* ------Drop Down Css End------ */
 .bookButton a{
     background-color: #ED2433;
     text-decoration: none;
@@ -62,7 +62,7 @@ nav{
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
-/* ===================Nav And Banner Ending=================== */
+/* ===================NavBar Ending=================== */
 
 /* =====================Banner Section Starting=================== */
 #banner{
@@ -118,33 +118,21 @@ nav{
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
-.subtract_1{
-    transition: all 300ms ease-in-out;
-}
-.subtract_1{
-    background-image: url(../images/Subtract\ 1.png);
-    background-size: cover;
-    background-position: center;
-    width: 292px;
-    height: 362px;
-}
-.banner-card{
-    gap: 78px;
-    margin-top: 100px !important;
-    margin-left: 125px !important;
-    transition: all 300ms ease-in-out;
 
+.banner-card {
+    gap: 50px;
+    margin-top: 100px !important;
+    margin-left: 170px !important;
+    transition: all 300ms ease-in-out;
 }
 .col-lg-3{
     padding: 0px !important;
-}
-.subtract_1 img{
-    margin-top: 10px;
-}
-.subtract_1 h2{
+ }
+ 
+.glass h2{
     margin-top: 10px;
     background-color: #101010;
-    width: 100%;
+    width: 101%;
     height: 45px;
     font-size: 21px;
     padding: 11px 0;
@@ -152,18 +140,18 @@ nav{
     font-family: "Overpass", sans-serif;
     font-weight: 700;
 }
-.subtract_1 h2 span{
+.glass h2 span{
     color: #ED2433;
 }
-.subtract_1 p{
+.glass p{
     margin: 0 auto;
     width: 270px;
-    margin-top:26px;
+    margin-top:15px;
     color: white;
     font-family: "Open Sans", sans-serif;
 }
-.subtract_1 a{
-    margin-top: 25px;
+.glass a{
+    margin-top: 15px;
     background-color: #181616;
     text-decoration: none;
     color: white;
@@ -175,13 +163,53 @@ nav{
     display: inline-block;
     transition: all 300ms ease-in-out;
 }
-.subtract_1 a:hover{
+.glass a:hover{
     box-shadow: -10px -7px 0px #ec0f21;
+    border: 1px solid rgb(192, 12, 12);
     background: #ff0011;
 }
-.subtract_1:hover{
+.glass:hover{
     transform: scale(1.03);
     margin-top: -50px;
+}
+.container .glass {
+  position: relative;
+  width: 292px;
+  height: 412px;
+  background: #ff0011;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin: 0 -5px;
+  backdrop-filter: blur(10px);
+  transform: rotate(calc(var(--r) * 1deg));
+}
+
+.banner_cards:hover .glass {
+  transform: rotate(0deg);
+  margin: 0 10px;
+}
+
+.container .glass::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.container .glass svg {
+  font-size: 2.5em;
+  fill: #fff;
 }
 /* =====================Banner Section Ending=================== */
 

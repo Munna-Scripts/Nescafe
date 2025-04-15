@@ -594,12 +594,14 @@ footer {
 .footer_navLinks .footer_icons {
     display: flex;
     align-items: center;
-    gap: 22px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .footer_navLinks .footer_icons a {
     color: white;
     font-size: 30px;
+    z-index: 3;
 }
 
 .footer_navLinks .footer_input {
@@ -639,6 +641,50 @@ footer {
     font-weight: 600;
     text-align: center;
     margin-top: 40px;
+}
+
+.Btn {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.Btn .svgContainer {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    padding: 2px 7px;
+}
+
+.Btn .BG {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 30px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.Btn:hover .BG {
+    transform: rotate(40deg);
+    transform-origin: bottom;
+}
+
+.Btn:hover .svgContainer {
+    background-color: rgba(214, 214, 214, 0.466);
+    backdrop-filter: blur(4px);
 }
 
 /* ==========================Footer Ending======================== */

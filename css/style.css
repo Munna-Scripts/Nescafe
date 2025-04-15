@@ -6,47 +6,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
 /* ===================Common Css======================= */
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-height: 100vh;
     background-color: #F0EBE5 !important;
 }
+
 /* ===================NavBar Starting=================== */
-#nav_and_banner{
+#nav_and_banner {
     background-image: url(../images/slider_image01-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 800px;
 }
-nav{
+
+nav {
     width: 100%;
     padding-top: 35px !important;
     background-color: transparent;
 }
+
 /* ------Drop Down Css St------ */
-.navbar-nav li a{
+.navbar-nav li a {
     color: white !important;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
 }
-.navbar-nav{
+
+.navbar-nav {
     gap: 30px;
+    align-items: center;
 }
-.dropdown-menu{
-    background-color: red !important; 
+
+.dropdown-menu {
+    background-color: red !important;
 }
-.dropdown-menu a:hover{
+
+.dropdown-menu a:hover {
     background-color: #181616 !important;
 }
-.dropdown-item{
+
+.dropdown-item {
     color: black !important;
 }
+
 /* ------Drop Down Css End------ */
-.bookButton a{
+.ud_hover {
+    position: relative;
+    padding: 0;
+}
+
+.ud_hover::after,
+.ud_hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 222, 222, 1) 0%, rgba(171, 31, 31, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 69, 69, 1) 100%);
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease-out;
+}
+
+.ud_hover::before {
+    top: -5px;
+    transform-origin: left;
+}
+
+.ud_hover:hover::after,
+.ud_hover:hover::before {
+    transform: scaleX(1);
+}
+
+.bookButton a {
     background-color: #ED2433;
     text-decoration: none;
     color: white;
@@ -58,32 +97,38 @@ nav{
     font-weight: 600;
     transition: all 300ms ease-in-out;
 }
-.bookButton a:hover{
+
+.bookButton a:hover {
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
+
 /* ===================NavBar Ending=================== */
 
 /* =====================Banner Section Starting=================== */
-#banner{
+#banner {
     width: 100%;
     margin: 0 auto;
     text-align: center;
     transform: translateY(226px);
 }
-.banner_text{
+
+.banner_text {
     margin-top: -73px;
 }
-.banner_text h2{
+
+.banner_text h2 {
     font-family: "ZCOOL XiaoWei", sans-serif;
     font-size: 62px;
     color: #ED2433;
 }
-.banner_text h1{
+
+.banner_text h1 {
     font-family: "ZCOOL XiaoWei", sans-serif;
     font-size: 83px;
     color: #ED2433;
 }
+
 .banner_text span {
     display: flex;
     align-items: center;
@@ -91,18 +136,21 @@ nav{
     color: white;
     margin-bottom: 31px;
 }
+
 .white_line {
     margin-bottom: 24px;
     padding: 0px 16px;
 }
-.banner_text span p{
+
+.banner_text span p {
     padding: 20px;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
     color: white;
     letter-spacing: 7px;
 }
-.banner_text a{
+
+.banner_text a {
     margin-top: 25px;
     background-color: #ED2433;
     text-decoration: none;
@@ -114,7 +162,8 @@ nav{
     font-size: 14px;
     transition: all 300ms ease-in-out;
 }
-.banner_text a:hover{
+
+.banner_text a:hover {
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
@@ -125,11 +174,12 @@ nav{
     margin-left: 170px !important;
     transition: all 300ms ease-in-out;
 }
-.col-lg-3{
+
+.col-lg-3 {
     padding: 0px !important;
 }
- 
-.glass h2{
+
+.glass h2 {
     margin-top: 10px;
     background-color: #101010;
     width: 101%;
@@ -140,17 +190,20 @@ nav{
     font-family: "Overpass", sans-serif;
     font-weight: 700;
 }
-.glass h2 span{
+
+.glass h2 span {
     color: #ED2433;
 }
-.glass p{
+
+.glass p {
     margin: 0 auto;
     width: 270px;
-    margin-top:15px;
+    margin-top: 15px;
     color: white;
     font-family: "Open Sans", sans-serif;
 }
-.glass a{
+
+.glass a {
     margin-top: 15px;
     background-color: #181616;
     text-decoration: none;
@@ -163,117 +216,134 @@ nav{
     display: inline-block;
     transition: all 300ms ease-in-out;
 }
-.glass a:hover{
+
+.glass a:hover {
     box-shadow: -10px -7px 0px #ec0f21;
     border: 1px solid rgb(192, 12, 12);
     background: #ff0011;
 }
-.glass:hover{
+
+.glass:hover {
     transform: scale(1.03);
     margin-top: -50px;
 }
+
 .container .glass {
-  position: relative;
-  width: 292px;
-  height: 412px;
-  background: #ff0011;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  border-radius: 10px;
-  margin: 0 -5px;
-  backdrop-filter: blur(10px);
-  transform: rotate(calc(var(--r) * 1deg));
+    position: relative;
+    width: 292px;
+    height: 412px;
+    background: #ff0011;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -5px;
+    backdrop-filter: blur(10px);
+    transform: rotate(calc(var(--r) * 1deg));
 }
 
 .banner_cards:hover .glass {
-  transform: rotate(0deg);
-  margin: 0 10px;
+    transform: rotate(0deg);
+    margin: 0 10px;
 }
 
 .container .glass::before {
-  content: attr(data-text);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.05);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
+
 .container .glass svg {
-  font-size: 2.5em;
-  fill: #fff;
+    font-size: 2.5em;
+    fill: #fff;
 }
+
 /* =====================Banner Section Ending=================== */
 
 
 /* =====================Event Section Starting=================== */
-#event{
+#event {
     padding-top: 440px;
 }
-.event_header{
+
+.event_header {
     text-align: center;
     font-family: "Open Sans", sans-serif;
 }
-.event_header h5{
+
+.event_header h5 {
     font-size: 20px;
     letter-spacing: 13px;
     margin-bottom: 15px;
 }
-.event_header h2{
+
+.event_header h2 {
     font-size: 32px;
 }
+
 .event_header h2:after {
     content: '';
     display: block;
     width: 15%;
     border: 2px solid #ED2433;
-    margin-top: 12px !important; 
+    margin-top: 12px !important;
     margin: 0 auto;
 }
-.event_header h2 .sp-1{
+
+.event_header h2 .sp-1 {
     font-weight: bold;
 }
-.event_header h2 .sp-2{
+
+.event_header h2 .sp-2 {
     color: #ED2433;
 }
 
-.event_details{
+.event_details {
     margin-top: 100px !important;
 }
 
-.main_detail_text{
+.main_detail_text {
     display: flex;
     align-items: start;
     gap: 37px;
 }
-.details p{
+
+.details p {
     margin-top: 30px;
     font-size: 16px;
-}.details h2{
+}
+
+.details h2 {
     font-weight: 400;
     font-size: 24px;
 }
-.details h2 span{
+
+.details h2 span {
     font-weight: bold;
 }
 
-.event_details2{
+.event_details2 {
     margin-top: 65px !important;
 }
+
 /* =====================Event Section Ending=================== */
 
 /* =====================Food Gallery Starting=================== */
-#gallery{
+#gallery {
     padding-top: 100px;
 }
+
 .gallery_header span {
     display: flex;
     align-items: center;
@@ -281,16 +351,19 @@ nav{
     color: #ED2433;
     margin-bottom: 31px;
 }
-.gallery_header span p{
+
+.gallery_header span p {
     color: black;
     font-family: "Cookie", cursive;
     font-size: 32px;
-    
+
 }
-.gallery_header span p .p_span{
+
+.gallery_header span p .p_span {
     display: inline-block;
     margin-bottom: 0px !important;
 }
+
 .food_text span {
     display: flex;
     align-items: center;
@@ -298,30 +371,35 @@ nav{
     font-size: 17px;
     font-family: "Acme", sans-serif;
 }
-.food_gallery_and_about{
+
+.food_gallery_and_about {
     display: flex;
     gap: 46px;
 }
+
 .food_text span .white_line {
     margin-bottom: 27px;
     padding-right: 10px;
     padding-left: 0px !important;
     font-size: 20px;
 }
-.food_text h2{
+
+.food_text h2 {
     font-family: "Acme", sans-serif;
     font-size: 24px;
     width: 150px;
     margin-bottom: 27px;
 }
-.food_text h5{
+
+.food_text h5 {
     font-size: 12px;
     color: #686868;
     width: 247px;
     font-family: "Acme", sans-serif;
     margin-bottom: 0px;
 }
-.food_text a{
+
+.food_text a {
     margin-top: 19px;
     background-color: #ED2433;
     text-decoration: none;
@@ -334,42 +412,50 @@ nav{
     display: inline-block;
     transition: all 300ms ease-in-out;
 }
-.food_text a:hover{
+
+.food_text a:hover {
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
+
 /* =====================Food Gallery Ending=================== */
 
 
 
 /* =====================Reserve Section Starting=================== */
-#reserve{
+#reserve {
     padding-top: 117px;
 }
-.reserve_row{
+
+.reserve_row {
     background-color: white;
 }
-.reserve_row .col-lg-6{
+
+.reserve_row .col-lg-6 {
     padding-left: 0px;
 }
-.reserve_info h2{
+
+.reserve_info h2 {
     font-size: 25px;
     color: #2C2C2C;
     font-family: "Roboto", sans-serif;
     padding-top: 45px;
     padding-bottom: 40px;
 }
-.reserve_info{
+
+.reserve_info {
     padding-left: 70px;
     padding-right: 25px;
 }
-.reserve_info input{
+
+.reserve_info input {
     width: 100%;
     margin-bottom: 30px;
     padding: 20px 25px;
     outline: none;
 }
-.reserve_info a{
+
+.reserve_info a {
     margin-top: 29px;
     width: 100%;
     text-align: center;
@@ -385,39 +471,44 @@ nav{
     display: inline-block;
     transition: all 300ms ease-in-out;
 }
-.reserve_info a:hover{
+
+.reserve_info a:hover {
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
+
 /* =====================Reserve Section Ending=================== */
 
 /* ==========================Footer Starting====================== */
-footer{
+footer {
     margin-top: 170px;
     width: 100%;
-    height:100%;
+    height: 100%;
     background-color: #2C2C2C;
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.row_1 img{
+
+.row_1 img {
     width: 202px;
 }
-.row_1 p{
+
+.row_1 p {
     color: white;
     font-size: 20px;
     font-family: "Signika", sans-serif;
     padding-top: 45px;
     font-weight: 600;
 }
-.row_1 a{
+
+.row_1 a {
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: white;
     background-color: #ED2433;
-    padding: 15px ;
+    padding: 15px;
     border-radius: 37px;
     font-family: "Signika", sans-serif;
     font-weight: 600;
@@ -425,10 +516,12 @@ footer{
     margin-top: 24px;
     transition: all 300ms ease-in-out;
 }
-.row_1 a img{
+
+.row_1 a img {
     width: 25px;
 }
-.row_1 .appleStore{
+
+.row_1 .appleStore {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -442,10 +535,12 @@ footer{
     font-size: 15px;
     margin-top: 24px;
 }
-.footer_row{
+
+.footer_row {
     padding-left: 64px;
 }
-.footer_row h2{
+
+.footer_row h2 {
     color: white;
     font-family: "Signika", sans-serif;
     font-size: 24px;
@@ -453,8 +548,9 @@ footer{
     padding-bottom: 8px;
     font-weight: 600;
 }
-.footer_row h2::after{
-    content:'';
+
+.footer_row h2::after {
+    content: '';
     position: absolute;
     width: 50%;
     height: 2px;
@@ -462,17 +558,20 @@ footer{
     bottom: 0;
     left: 0;
 }
-.footer_row p{
+
+.footer_row p {
     padding-top: 13px;
     color: #A7A7A7;
     font-family: "Signika", sans-serif;
     font-weight: 600;
     margin-bottom: 0px;
 }
-.footer_navLinks{
+
+.footer_navLinks {
     padding-left: 64px;
 }
-.footer_navLinks h2{
+
+.footer_navLinks h2 {
     color: white;
     font-family: "Signika", sans-serif;
     font-weight: 600;
@@ -481,8 +580,9 @@ footer{
     padding-bottom: 8px;
     font-weight: 600;
 }
-.footer_navLinks h2::after{
-    content:'';
+
+.footer_navLinks h2::after {
+    content: '';
     position: absolute;
     width: 20%;
     height: 2px;
@@ -490,24 +590,29 @@ footer{
     bottom: 0;
     left: 0;
 }
-.footer_navLinks .footer_icons{
+
+.footer_navLinks .footer_icons {
     display: flex;
     align-items: center;
     gap: 22px;
 }
-.footer_navLinks .footer_icons a{
+
+.footer_navLinks .footer_icons a {
     color: white;
     font-size: 30px;
 }
-.footer_navLinks .footer_input{
+
+.footer_navLinks .footer_input {
     margin-top: 23px;
 }
-.footer_input input{
+
+.footer_input input {
     padding: 15px 107px 14px 15px;
     margin-top: 10px;
     outline: none;
 }
-.footer_navLinks button{
+
+.footer_navLinks button {
     margin-top: 29px;
     width: 90%;
     background-color: #ED2433;
@@ -522,16 +627,18 @@ footer{
     outline: none;
     transition: all 300ms ease-in-out;
 }
-.footer_navLinks button:hover{
+
+.footer_navLinks button:hover {
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
-.copyright h2{
+
+.copyright h2 {
     color: #A7A7A7;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     margin-top: 40px;
 }
-/* ==========================Footer Ending======================== */
 
+/* ==========================Footer Ending======================== */

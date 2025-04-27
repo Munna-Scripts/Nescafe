@@ -301,6 +301,14 @@ nav {
     border-bottom: 2px solid #DC9457;
     width: 285px;
 }
+.ob_image{
+    width: 260px;
+    margin: 0 auto;
+    padding-top: 60px;
+    img{
+        width: 100%;
+    }
+}
 /* =====================Our Burger Ending=================== */
 
 /* =====================Event Section Starting=================== */

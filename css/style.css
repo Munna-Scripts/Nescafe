@@ -275,7 +275,7 @@ nav {
 #burger{
     margin-top: 400PX;
     width: 100%;
-    height: 650px;
+    height: 660px;
     background-color: #1C2123;
 }
 .burger_header{
@@ -301,13 +301,35 @@ nav {
     border-bottom: 2px solid #DC9457;
     width: 285px;
 }
+.burger_lower_header h3 {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
 .ob_image{
     width: 260px;
+    height:260px ;
     margin: 0 auto;
+    display: flex;
     padding-top: 60px;
     img{
         width: 100%;
     }
+}
+.burger_p p {
+    font-family: "Rubik", sans-serif;
+    color: #666666;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 304px;
+    padding: 25px 0;
+    margin: 0 auto;
 }
 /* =====================Our Burger Ending=================== */
 

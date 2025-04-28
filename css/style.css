@@ -401,9 +401,60 @@ nav {
 /* =====================Event Section Ending=================== */
 
 /* =====================Slider Starting=================== */
-/* #foodSlider{
-    
-} */
+#foodSlider{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.food_slider_header{
+
+    p{
+        font-family: "Rubik", sans-serif;
+        font-size: 22px;
+        margin: 0;
+    }
+    h2 {
+        font-size: 64px;
+        max-width: 280px;
+    }
+}
+.food_slider{
+
+    .item_1{
+        .item_image{
+            width: 340px;
+            height: 300px;
+            border-radius: 26px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .item_text{
+        margin-top: 15px;
+
+        h2{
+            color: #2C2C2C;
+            font-family: "Rubik", sans-serif;
+            font-size: 28px;
+        }
+        p{
+            font-family: "Rubik", sans-serif;
+            color: #2C2C2C;
+            font-size: 16px;
+            max-width: 350px;
+        }
+        .price{
+            display: flex;
+            gap: 70px;
+
+            p{
+                color: #00473C;
+            }
+        }
+    }
+}
 /* =====================Slider Ending=================== */
 
 /* =====================Food Gallery Starting=================== */

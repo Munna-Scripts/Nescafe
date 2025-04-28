@@ -26,3 +26,21 @@ const tick = () => {
 }
 
 tick();
+
+//------------------- Slider---------
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000
+});
+
+
+
+$('.food_slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows:true,
+  prevArrow:'<i class="fa-solid arrows prr fa-chevron-left"></i>',
+  nextArrow:'<i class="fa-solid arrows nrr fa-chevron-right"></i>',
+  dots:true,
+});

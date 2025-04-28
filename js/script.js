@@ -40,6 +40,8 @@ $('.food_slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows:false,
+  autoplay:true,
+  autoplaySpeed:1500,
   prevArrow:'<i class="fa-solid arrows prr fa-chevron-left"></i>',
   nextArrow:'<i class="fa-solid arrows nrr fa-chevron-right"></i>',
   dots:false,

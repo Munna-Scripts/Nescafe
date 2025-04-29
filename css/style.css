@@ -241,7 +241,6 @@ nav {
     align-items: center;
     transition: 0.5s;
     border-radius: 10px;
-    margin: 0 -5px;
     backdrop-filter: blur(10px);
     transform: rotate(calc(var(--r) * 1deg));
 }
@@ -832,7 +831,7 @@ html::-webkit-scrollbar-thumb
 }
 
 .circle {
-    --cursor-size: 20px;
+    --cursor-size: 14px;
     position: fixed;
     width: var(--cursor-size);
     height: var(--cursor-size);
@@ -854,6 +853,6 @@ html::-webkit-scrollbar-thumb
     height: 40px;
     background-color: rgb(226, 13, 13);
     border-radius: 50%;
-    transform: translate(-28%, -30%);
+    transform: translate(-36%, -36%);
 }
 /* =====================Additional Css End======================= */

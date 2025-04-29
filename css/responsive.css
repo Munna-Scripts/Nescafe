@@ -78,6 +78,25 @@ nav {
 	transform: scale(1.03);
 	margin-top: 0px;
 }
+.container .glass {
+    position: relative;
+    width: 292px;
+    height: 412px;
+    background: #ff0011;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transform: rotate(0deg);
+}
+.banner_cards:hover .glass {
+	margin: 0;
+}
 /* ====================Banner Section Ending=================== */
 
 

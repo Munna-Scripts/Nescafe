@@ -108,6 +108,75 @@ nav {
 }
 /* =====================Our Burger Ending=================== */
 
+/* =====================Slider Starting=================== */
+.food_slider_header {
+	h2 {
+	  font-size: 46px;
+	  max-width: 280px;
+	}
+  }
+.arrows{
+	position: absolute;
+	right: 40%;
+	bottom: -80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--brand_color);
+	transition: all 500ms ease-in-out;
+   
+   }
+   .prr{
+	 left: 40%;
+	 bottom: -80px;
+	 width: 42px;
+	 height: 42px;
+	 border: 1px solid #42454A;
+	 border-radius: 50%;
+	 font-size: 18px;
+   }
+   .nrr{
+	 right: 28%;
+	 width: 42px;
+	 height: 42px;
+	 bottom: -80px;
+	 border: 1px solid #42454A;
+	 border-radius: 50%;
+	 font-size: 18px;
+   }
+   .arrows:hover{
+	 background-color: #42454A;
+	 border: none;
+	 color: white;
+	 transform: scale(1.1);
+   }
+   .review_card:hover{
+	 box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.slick-dots{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all 300ms ease-in-out;
+
+}
+.slick-dots li button{
+    font-size: 0;
+    height: 11px;
+	width: 11px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: #1C2123;
+    transition: all 300ms ease-in-out;
+}
+.slick-dots .slick-active button{
+    background-color: #CF0000;
+}
+/* =====================Slider Ending=================== */
+
 
 /* =====================Event Section Starting================ */
 #event {

@@ -386,7 +386,7 @@
 /* =========================SM Device End========================== */
 
 /* =========================MD Device Start========================== */
-@media (min-width: 320px) and (max-width: 575.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
 
 	/* ====================Navbar Starting====================== */
 	nav {
@@ -452,7 +452,9 @@
 	#banner {
 		transform: translateY(111px);
 	}
-
+	#banner .container, .container-sm{
+		max-width: none ;
+	}
 	.banner_text h2 {
 		font-size: 42px;
 		margin-bottom: 20px;
@@ -463,9 +465,9 @@
 	}
 
 	.banner_text span p {
-		font-size: 11px;
+		font-size: 13px;
 		letter-spacing: 2px;
-		padding: 20px 0px;
+		padding: 20px 20px;
 	}
 
 	.white_line {
@@ -475,6 +477,11 @@
 	.banner-card {
 		gap: 27px;
 		margin-left: 2px !important;
+		flex-wrap: nowrap;
+		margin-top: -65px !important;
+		.col-lg-3{
+			width: 29%;
+		}
 	}
 
 	.dis320 {
@@ -488,8 +495,8 @@
 
 	.container .glass {
 		position: relative;
-		width: 292px;
-		height: 412px;
+		width: 175px;
+		height: 265px;
 		background: #ff0011;
 		border: 1px solid rgba(255, 255, 255, 0.1);
 		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
@@ -501,8 +508,30 @@
 		border-radius: 10px;
 		backdrop-filter: blur(10px);
 		transform: rotate(0deg);
-	}
 
+		img{
+			width: 50px;
+		}
+	}
+	.glass h2 {
+		margin-top: 0px;
+		height: 48px;
+		font-size: 17px;
+		padding: 12px 0;
+	}
+	.glass p {
+		width: 100%;
+		margin-top: 5px;
+		font-size: 13px;
+	}
+	.glass a {
+		margin-top: 9px;
+		padding: 10px 28px;
+		font-size: 10px;
+	}
+	.container .glass::before {
+		content: none;
+	}
 	.banner_cards:hover .glass {
 		margin: 0;
 	}
@@ -510,38 +539,37 @@
 	.banner_cards {
 		margin-top: 180px;
 	}
-
+	
 	#nav_and_banner {
 		background-image: url(../images/slider_image01-1.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 100%;
-		height: 800px;
+		height: 633px;
 		animation: backgroundMove ease-in-out 20s infinite;
 		background-position: -300px;
 	}
 
 	@keyframes backgroundMove {
 		0% {
-			background-position: -300px;
+			background-position: 0px;
 		}
 
 		50% {
-			background-position: -950px;
+			background-position: -400px;
 		}
 
 		100% {
-			background-position: -300px;
+			background-position: 0px;
 		}
 	}
 
 	/* ====================Banner Section Ending=================== */
 	/* =====================Our Burger Starting=================== */
 	#burger {
-		margin-top: 1160PX;
+		margin-top: 200px;
 		height: 1930px;
 	}
-
 	/* =====================Our Burger Ending=================== */
 
 	/* =====================Slider Starting=================== */

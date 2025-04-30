@@ -14,6 +14,10 @@ body {
     box-sizing: border-box;
     max-height: 100vh;
     background-color: #F0EBE5 !important;
+    ::selection {
+        color: white;
+        background: #1C2123;
+    }
 }
 
 /* ===================NavBar Starting=================== */
@@ -791,6 +795,7 @@ footer {
     border-radius: 30px;
     pointer-events: none;
     transition: all 0.3s;
+    top: 0;
 }
 
 .Btn:hover .BG {

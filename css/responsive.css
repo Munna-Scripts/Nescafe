@@ -97,12 +97,21 @@ nav {
 .banner_cards:hover .glass {
 	margin: 0;
 }
+.banner_cards{
+	margin-top: 180px;
+}
 /* ====================Banner Section Ending=================== */
+/* =====================Our Burger Starting=================== */
+#burger {
+	margin-top: 1160PX;
+	height: 660px;
+}
+/* =====================Our Burger Ending=================== */
 
 
 /* =====================Event Section Starting================ */
 #event {
-	padding-top: 169px;
+	padding-top: 1360px;
 }
 .details h2 {
 	font-size: 22px;

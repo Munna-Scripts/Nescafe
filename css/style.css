@@ -247,7 +247,6 @@ nav {
 
 .banner_cards:hover .glass {
     transform: rotate(0deg);
-    margin: 0 10px;
 }
 
 .container .glass::before {

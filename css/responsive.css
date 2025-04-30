@@ -104,14 +104,19 @@ nav {
 /* =====================Our Burger Starting=================== */
 #burger {
 	margin-top: 1160PX;
-	height: 660px;
+	height: 1930px;
 }
 /* =====================Our Burger Ending=================== */
 
 
 /* =====================Event Section Starting================ */
 #event {
-	padding-top: 1360px;
+	padding-top: 111px;
+}
+.event_header h5 {
+	font-size: 20px;
+	letter-spacing: 10px;
+	margin-bottom: 25px;
 }
 .details h2 {
 	font-size: 22px;

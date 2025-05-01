@@ -87,6 +87,7 @@
 	.white_line {
 		padding: 0px;
 	}
+
 	.dis320 {
 		display: none;
 	}
@@ -95,6 +96,7 @@
 		transform: scale(1.03);
 		margin-top: 0px;
 	}
+
 	.banner_text h2 {
 		font-size: 42px;
 		margin-bottom: 20px;
@@ -113,6 +115,7 @@
 	.white_line {
 		padding: 0px;
 	}
+
 	.banner-card {
 		gap: 27px;
 		margin-left: 2px !important;
@@ -145,7 +148,7 @@
 		backdrop-filter: blur(10px);
 		transform: rotate(0deg);
 
-		img{
+		img {
 			width: 70px;
 		}
 	}
@@ -158,6 +161,7 @@
 	.container .glass::before {
 		content: none;
 	}
+
 	.banner_cards:hover .glass {
 		margin: 0;
 	}
@@ -165,6 +169,7 @@
 	.banner_cards {
 		margin-top: 180px;
 	}
+
 	#nav_and_banner {
 		background-image: url(../images/slider_image01-1.jpg);
 		background-size: cover;
@@ -273,14 +278,16 @@
 	.slick-dots .slick-active button {
 		background-color: #CF0000;
 	}
+
 	.food_slider {
 		& .item_1 {
-		  & .item_image {
-			width: 100% ;
-			height: 410px;
-		  }
+			& .item_image {
+				width: 100%;
+				height: 410px;
+			}
 		}
-	  }
+	}
+
 	/* =====================Slider Ending=================== */
 
 
@@ -431,6 +438,7 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================SM Device End========================== */
 
 /* =========================MD Device Start========================== */
@@ -441,10 +449,11 @@
 		padding-top: 10px !important;
 	}
 
-	.navbar-toggler .bx{
+	.navbar-toggler .bx {
 		font-size: 40px;
 		color: white;
 	}
+
 	.offcanvas {
 		max-width: 40%;
 		transition: all 300ms ease-in-out;
@@ -499,9 +508,12 @@
 	#banner {
 		transform: translateY(111px);
 	}
-	#banner .container, .container-sm{
-		max-width: none ;
+
+	#banner .container,
+	.container-sm {
+		max-width: none;
 	}
+
 	.banner_text h2 {
 		font-size: 42px;
 		margin-bottom: 20px;
@@ -526,7 +538,8 @@
 		margin-left: 2px !important;
 		flex-wrap: nowrap;
 		margin-top: -65px !important;
-		.col-lg-3{
+
+		.col-lg-3 {
 			width: 29%;
 		}
 	}
@@ -556,29 +569,34 @@
 		backdrop-filter: blur(10px);
 		transform: rotate(0deg);
 
-		img{
+		img {
 			width: 50px;
 		}
 	}
+
 	.glass h2 {
 		margin-top: 0px;
 		height: 48px;
 		font-size: 17px;
 		padding: 12px 0;
 	}
+
 	.glass p {
 		width: 100%;
 		margin-top: 5px;
 		font-size: 13px;
 	}
+
 	.glass a {
 		margin-top: 9px;
 		padding: 10px 28px;
 		font-size: 10px;
 	}
+
 	.container .glass::before {
 		content: none;
 	}
+
 	.banner_cards:hover .glass {
 		margin: 0;
 	}
@@ -586,7 +604,7 @@
 	.banner_cards {
 		margin-top: 180px;
 	}
-	
+
 	#nav_and_banner {
 		background-image: url(../images/slider_image01-1.jpg);
 		background-size: cover;
@@ -617,9 +635,11 @@
 		margin-top: 200px;
 		height: 1800px;
 	}
+
 	.burger_header {
 		margin-top: 40px;
 	}
+
 	/* =====================Our Burger Ending=================== */
 
 	/* =====================Slider Starting=================== */
@@ -697,14 +717,16 @@
 	.slick-dots .slick-active button {
 		background-color: #CF0000;
 	}
+
 	.food_slider {
 		& .item_1 {
-		  & .item_image {
-			width: 100% ;
-			height: 410px;
-		  }
+			& .item_image {
+				width: 100%;
+				height: 410px;
+			}
 		}
-	  }
+	}
+
 	/* =====================Slider Ending=================== */
 
 
@@ -855,4 +877,5 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================MD Device End========================== */

@@ -193,6 +193,7 @@ nav {
 .glass h2 {
     margin-top: 10px;
     background-color: #101010;
+    border-radius: 3px;
     width: 101%;
     height: 45px;
     font-size: 21px;

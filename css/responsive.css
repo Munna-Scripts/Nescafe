@@ -13,6 +13,7 @@
 
 	.offcanvas {
 		max-width: 60%;
+		width: 60%;
 		transition: all 300ms ease-in-out;
 	}
 
@@ -84,10 +85,37 @@
 	.white_line {
 		padding: 0px;
 	}
+	.dis320 {
+		display: none;
+	}
 
+	.subtract_1:hover {
+		transform: scale(1.03);
+		margin-top: 0px;
+	}
+	.banner_text h2 {
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+
+	.banner_text h1 {
+		font-size: 46px;
+	}
+
+	.banner_text span p {
+		font-size: 13px;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+	}
+
+	.white_line {
+		padding: 0px;
+	}
 	.banner-card {
 		gap: 27px;
 		margin-left: 2px !important;
+		flex-wrap: wrap;
+		margin-top: -65px !important;
 	}
 
 	.dis320 {
@@ -101,8 +129,8 @@
 
 	.container .glass {
 		position: relative;
-		width: 292px;
-		height: 412px;
+		width: 100%;
+		height: 265px;
 		background: #ff0011;
 		border: 1px solid rgba(255, 255, 255, 0.1);
 		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
@@ -114,8 +142,30 @@
 		border-radius: 10px;
 		backdrop-filter: blur(10px);
 		transform: rotate(0deg);
-	}
 
+		img{
+			width: 50px;
+		}
+	}
+	.glass h2 {
+		margin-top: 0px;
+		height: 48px;
+		font-size: 17px;
+		padding: 12px 0;
+	}
+	.glass p {
+		width: 100%;
+		margin-top: 5px;
+		font-size: 13px;
+	}
+	.glass a {
+		margin-top: 9px;
+		padding: 10px 28px;
+		font-size: 10px;
+	}
+	.container .glass::before {
+		content: none;
+	}
 	.banner_cards:hover .glass {
 		margin: 0;
 	}
@@ -123,7 +173,6 @@
 	.banner_cards {
 		margin-top: 180px;
 	}
-
 	#nav_and_banner {
 		background-image: url(../images/slider_image01-1.jpg);
 		background-size: cover;
@@ -232,7 +281,14 @@
 	.slick-dots .slick-active button {
 		background-color: #CF0000;
 	}
-
+	.food_slider {
+		& .item_1 {
+		  & .item_image {
+			width: 100% ;
+			height: 410px;
+		  }
+		}
+	  }
 	/* =====================Slider Ending=================== */
 
 

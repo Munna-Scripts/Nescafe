@@ -64,9 +64,9 @@ $('.food_slider').slick({
       prevArrow: '<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
       nextArrow: '<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
     },
-    breakpoint: 767,
+    breakpoint: 768,
     settings: {
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       arrows: true,
       dots: true,
@@ -102,7 +102,7 @@ $('.food_slider').slick({
     },
     breakpoint: 1399,
     settings: {
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
       arrows: true,
       dots: true,

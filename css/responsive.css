@@ -439,7 +439,6 @@
 	/* ==========================Footer Ending====================== */
 
 }
-
 /* =========================SM Device End========================== */
 
 /* =========================MD Device Start========================== */
@@ -948,11 +947,6 @@
 		transform: translateY(111px);
 	}
 
-	#banner .container,
-	.container-sm {
-		max-width: none;
-	}
-
 	.banner_text h2 {
 		font-size: 42px;
 		margin-bottom: 20px;
@@ -994,8 +988,8 @@
 
 	.container .glass {
 		position: relative;
-		width: 175px;
-		height: 265px;
+		width: 215px;
+		height: 300px;
 		background: #ff0011;
 		border: 1px solid rgba(255, 255, 255, 0.1);
 		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
@@ -1009,7 +1003,7 @@
 		transform: rotate(0deg);
 
 		img {
-			width: 50px;
+			width: 80px;
 		}
 	}
 
@@ -1158,10 +1152,17 @@
 	}
 
 	.food_slider {
-		& .item_1 {
-			& .item_image {
-				width: 100%;
-				height: 410px;
+		& .item_text {
+			& p {
+				font-family: "Rubik", sans-serif;
+				color: #2C2C2C;
+				font-size: 16px;
+				max-width: 306px;
+			}
+			& h2 {
+				color: #2C2C2C;
+				font-family: "Rubik", sans-serif;
+				font-size: 26px;
 			}
 		}
 	}
@@ -1173,7 +1174,6 @@
 	#event {
 		padding-top: 111px;
 	}
-
 	.event_header h5 {
 		font-size: 20px;
 		letter-spacing: 10px;
@@ -1214,11 +1214,13 @@
 	#reserve {
 		padding-top: 30px;
 	}
-
+	
 	.reserve_row {
 		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
-
 	.reserve_img img {
 		width: 100%;
 		display: none;
@@ -1291,6 +1293,7 @@
 		gap: 49px;
 		width: 100%;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.bx {

@@ -1323,81 +1323,27 @@
 
 }
 /* =========================LG Device End========================== */
+
 /* =========================XL Device Start======================== */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
 	/* ====================Navbar Starting====================== */
 	nav {
-		padding-top: 10px !important;
+		padding-top: 20px !important;
 	}
-
-	.navbar-toggler .bx {
-		font-size: 40px;
-		color: white;
-	}
-
-	.offcanvas {
-		max-width: 40%;
-		transition: all 300ms ease-in-out;
-	}
-
-	.navbar-toggler {
-		padding: 5px;
-	}
-
-	.offcanvas-header {
-		background-color: #2B3035;
-	}
-
-	.offcanvas-header h5 img {
-		width: 120px;
-	}
-
-	.offcanvas-header .btn-close {
-		margin-left: 46px;
-		background-color: white;
-		font-size: 15px;
-	}
-
-	.offcanvas-body {
-		background-color: #2B3035;
-	}
-
-	.offcanvas-title {
-		color: white;
-	}
-
-	.bookButton {
-		margin-top: 30px;
-	}
-
-	.bookButton a {
-		padding: 12px 52px;
-		font-size: 14px;
-	}
-
-	.navbar-nav li a {
-		padding: 0;
-	}
-
-	.dropdown-menu li a {
-		padding: 0px 10px;
-	}
-
 	/* ====================Navbar Ending============--=========== */
 
 	/* ====================Banner Section Starting=============== */
 	#banner {
-		transform: translateY(111px);
+		transform: translateY(170px);
 	}
 
 	.banner_text h2 {
-		font-size: 42px;
-		margin-bottom: 20px;
+		font-size: 45px;
 	}
 
 	.banner_text h1 {
-		font-size: 46px;
+		font-size: 56px;
 	}
 
 	.banner_text span p {
@@ -1412,39 +1358,18 @@
 
 	.banner-card {
 		gap: 27px;
-		margin-left: 2px !important;
-		flex-wrap: nowrap;
+		margin-left: 25px !important;
 		margin-top: -65px !important;
-
-		.col-lg-3 {
-			width: 29%;
-		}
 	}
 
 	.dis320 {
 		display: none;
 	}
 
-	.subtract_1:hover {
-		transform: scale(1.03);
-		margin-top: 0px;
-	}
-
 	.container .glass {
 		position: relative;
-		width: 215px;
-		height: 300px;
-		background: #ff0011;
-		border: 1px solid rgba(255, 255, 255, 0.1);
-		box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		transition: 0.5s;
-		border-radius: 10px;
-		backdrop-filter: blur(10px);
-		transform: rotate(0deg);
+		width: 257px;
+		height: 370px;
 
 		img {
 			width: 80px;
@@ -1452,65 +1377,35 @@
 	}
 
 	.glass h2 {
-		margin-top: 0px;
-		height: 48px;
-		font-size: 17px;
-		padding: 12px 0;
+		width: 101%;
 	}
 
 	.glass p {
-		width: 100%;
-		margin-top: 5px;
-		font-size: 13px;
+		width: 95%;
+		margin-top: 8px;
+		font-size: 14px;
 	}
 
 	.glass a {
-		margin-top: 9px;
-		padding: 10px 28px;
-		font-size: 10px;
+		margin-top: 19px;
+		padding: 16px 28px;
+		font-size: 13px;
 	}
-
-	.container .glass::before {
-		content: none;
-	}
-
-	.banner_cards:hover .glass {
-		margin: 0;
-	}
-
 	.banner_cards {
-		margin-top: 180px;
+		margin-top: 220px;
 	}
 
 	#nav_and_banner {
-		background-image: url(../images/slider_image01-1.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		width: 100%;
-		height: 633px;
-		animation: backgroundMove ease-in-out 20s infinite;
-		background-position: -300px;
+		height: 753px;
+		background-position: center;
 	}
-
-	@keyframes backgroundMove {
-		0% {
-			background-position: 0px;
-		}
-
-		50% {
-			background-position: -400px;
-		}
-
-		100% {
-			background-position: 0px;
-		}
+	.banner-card .col-lg-3{
+		width: 31%;
 	}
-
 	/* ====================Banner Section Ending=================== */
 	/* =====================Our Burger Starting=================== */
 	#burger {
-		margin-top: 200px;
-		height: 1800px;
+		margin-top: 333px;
 	}
 
 	.burger_header {
@@ -1619,7 +1514,7 @@
 		padding-top: 111px;
 	}
 	.event_details .col-lg-4{
-		width: 50%;
+		width: 33%;
 	}
 	.event_header h5 {
 		font-size: 20px;
@@ -1633,7 +1528,7 @@
 
 	.details p {
 		margin-top: 22px;
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	.event_details2 {
@@ -1664,9 +1559,6 @@
 	
 	.reserve_row {
 		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
 	}
 	.reserve_img img {
 		width: 100%;

@@ -78,7 +78,7 @@ $('.food_slider').slick({
     },
     breakpoint: 991,
     settings: {
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 1,
       arrows: true,
       dots: true,

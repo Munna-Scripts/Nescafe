@@ -51,66 +51,43 @@ $('.food_slider').slick({
   prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
   nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
   dots: false,
-  responsive: [{
-    breakpoint: 575,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: true,
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      infinite: true,
-      prevArrow: '<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
-      nextArrow: '<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+        arrows:true,
+        prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
+        nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
+      }
     },
-    breakpoint: 768,
-    settings: {
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      arrows: true,
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      infinite: true,
-      prevArrow: '<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
-      nextArrow: '<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots:true,
+        arrows:true,
+        prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
+        nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
+      }
     },
-    breakpoint: 991,
-    settings: {
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      arrows: true,
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      infinite: true,
-      prevArrow: '<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
-      nextArrow: '<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
-    },
-    breakpoint: 1199,
-    settings: {
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      arrows: true,
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      infinite: true,
-      prevArrow: '<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
-      nextArrow: '<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
-    },
-    breakpoint: 1399,
-    settings: {
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      arrows: true,
-      dots: true,
-      autoplay: true,
-      autoplaySpeed: 1500,
-      infinite: true,
-      prevArrow: '<i class="fa-sharp arrows prr fa-solid fa-arrow-left-long"></i>',
-      nextArrow: '<i class="fa-sharp arrows nrr fa-solid fa-arrow-right-long"></i>',
-    },
-  }]
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots:true,
+        arrows:true,
+        prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
+        nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });

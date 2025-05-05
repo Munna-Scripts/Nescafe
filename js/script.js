@@ -51,15 +51,14 @@ $('.food_slider').slick({
   prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
   nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
   dots: false,
-  responsive: [
-    {
+  responsive: [{
       breakpoint: 1024,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
-        arrows:true,
+        arrows: true,
         prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
         nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
       }
@@ -69,8 +68,8 @@ $('.food_slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots:true,
-        arrows:true,
+        dots: true,
+        arrows: true,
         prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
         nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
       }
@@ -80,8 +79,8 @@ $('.food_slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots:true,
-        arrows:true,
+        dots: true,
+        arrows: true,
         prevArrow: '<i class="fa-solid arrows prr fa-chevron-left"></i>',
         nextArrow: '<i class="fa-solid arrows nrr fa-chevron-right"></i>',
       }

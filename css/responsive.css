@@ -439,6 +439,7 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================SM Device End========================== */
 
 /* =========================MD Device Start========================== */
@@ -877,6 +878,7 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================MD Device End========================== */
 
 /* =========================LG Device Start========================== */
@@ -1159,6 +1161,7 @@
 				font-size: 16px;
 				max-width: 306px;
 			}
+
 			& h2 {
 				color: #2C2C2C;
 				font-family: "Rubik", sans-serif;
@@ -1174,9 +1177,11 @@
 	#event {
 		padding-top: 111px;
 	}
-	.event_details .col-lg-4{
+
+	.event_details .col-lg-4 {
 		width: 50%;
 	}
+
 	.event_header h5 {
 		font-size: 20px;
 		letter-spacing: 10px;
@@ -1217,13 +1222,14 @@
 	#reserve {
 		padding-top: 30px;
 	}
-	
+
 	.reserve_row {
 		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 	}
+
 	.reserve_img img {
 		width: 100%;
 		display: none;
@@ -1322,6 +1328,7 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================LG Device End========================== */
 
 /* =========================XL Device Start======================== */
@@ -1331,6 +1338,7 @@
 	nav {
 		padding-top: 20px !important;
 	}
+
 	/* ====================Navbar Ending============--=========== */
 
 	/* ====================Banner Section Starting=============== */
@@ -1391,6 +1399,7 @@
 		padding: 16px 28px;
 		font-size: 13px;
 	}
+
 	.banner_cards {
 		margin-top: 220px;
 	}
@@ -1399,12 +1408,15 @@
 		height: 753px;
 		background-position: center;
 	}
-	.banner-card .col-lg-3{
+
+	.banner-card .col-lg-3 {
 		width: 31%;
 	}
+
 	.container .glass {
 		transform: none;
 	}
+
 	/* ====================Banner Section Ending=================== */
 	/* =====================Our Burger Starting=================== */
 	#burger {
@@ -1501,6 +1513,7 @@
 				font-size: 16px;
 				max-width: 306px;
 			}
+
 			& h2 {
 				color: #2C2C2C;
 				font-family: "Rubik", sans-serif;
@@ -1516,9 +1529,11 @@
 	#event {
 		padding-top: 111px;
 	}
-	.event_details .col-lg-4{
+
+	.event_details .col-lg-4 {
 		width: 33%;
 	}
+
 	.event_header h5 {
 		font-size: 20px;
 		letter-spacing: 10px;
@@ -1559,10 +1574,11 @@
 	#reserve {
 		padding-top: 30px;
 	}
-	
+
 	.reserve_row {
 		background: linear-gradient(rgba(59, 58, 58, 0.65)), url(../images/reserved.jpg);
 	}
+
 	.reserve_img img {
 		width: 100%;
 		display: none;
@@ -1601,9 +1617,11 @@
 		height: 100%;
 		padding: 20px 0px;
 	}
+
 	.row_1 img {
 		width: 148px;
 	}
+
 	.row_1 p {
 		padding-top: 30px;
 	}
@@ -1664,6 +1682,7 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================XL Device End========================== */
 
 /* =========================XXL Device Start======================== */
@@ -1676,6 +1695,7 @@
 		margin-left: 62px !important;
 		transition: all 300ms ease-in-out;
 	}
+
 	/* ====================Banner Section Ending=================== */
 
 	/* ==========================Footer Starting=================== */
@@ -1684,9 +1704,11 @@
 		height: 100%;
 		padding: 20px 0px;
 	}
+
 	.row_1 img {
 		width: 148px;
 	}
+
 	.row_1 p {
 		padding-top: 30px;
 	}
@@ -1745,6 +1767,5 @@
 	/* ==========================Footer Ending====================== */
 
 }
+
 /* =========================XXL Device End========================== */
-
-

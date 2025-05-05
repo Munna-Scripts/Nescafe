@@ -109,11 +109,13 @@ nav {
     box-shadow: -10px -7px 0px #373737;
     background: #181616;
 }
-.offcanvas-header{
+
+.offcanvas-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 /* ===================NavBar Ending=================== */
 
 /* =====================Banner Section Starting=================== */

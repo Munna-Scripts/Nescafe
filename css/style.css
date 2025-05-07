@@ -710,12 +710,14 @@ footer {
     left: 0;
 }
 
-.footer_row p {
+.footer_row a {
     padding-top: 13px;
     color: #A7A7A7;
     font-family: "Signika", sans-serif;
     font-weight: 600;
     margin-bottom: 0px;
+    display: block;
+    text-decoration: none;
 }
 
 .footer_navLinks {
